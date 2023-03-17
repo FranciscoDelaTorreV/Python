@@ -1,0 +1,20 @@
+print('Bienvenido!')
+print('----------------------------')
+print('Ingrese su nombre:')
+nombre=input()
+print('Por favor ingresa tu ingreso mensual normal:')
+sueldo_n=float(input())
+print('----------------------------')
+print('Ahora ingrese cuanto le pagan por hora extra:')
+v_hora_extra=float(input())
+print('----------------------------')
+print('Cuantas horas extra ha trabajado este mes?')
+t_hora_extra=float(input())
+print('----------------------------')
+horas_extra=v_hora_extra*t_hora_extra
+sueldo_final=sueldo_n+horas_extra
+print(f'{nombre} tu sueldo normal es {sueldo_n}$')
+print(f'Actualmente ganarias {horas_extra}$ adicional a tu sueldo por las horas extra trabajadas')
+print(f'Tu sueldo final seria {sueldo_final}$')
+print(f'Gracias por preferirnos {nombre}!')
+
